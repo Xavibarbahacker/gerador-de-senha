@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    background-image: url('gerador\ de\ senha.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Para garantir que o texto seja legível */
+    padding: 50px 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: rgb(80, 74, 18);
+    background-color: rgb(216, 216, 193);
+    transition: background-color 0.1s;
+}
+
+#senha {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #0b4583;
+}
